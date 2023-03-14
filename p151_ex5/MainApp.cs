@@ -27,6 +27,8 @@ namespace p151_ex5
             double average = arr.Average();
             Console.WriteLine($"입력하신 {nb1},{nb2},{nb3} 중 최대값은 {max} 이며, 최소값은 {min} 입니다.");
             Console.WriteLine($"입력하신 {nb1},{nb2},{nb3} 중 합은 {sum} 이며, 평균은 {average} 입니다.");
+            
+            
         }
     }
 }
