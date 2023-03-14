@@ -24,26 +24,26 @@ namespace p151_ex6
                 {
                     Console.WriteLine($"입력하신 점수 {score}는(은) 합격 입니다.  ");
                 }
-                else if(score<70 && score>=0)//논리 연산자 &&를 사용하여 score가 60 이상이고 70이하 이면 발동
+                else if(score<70 && score>=0)//논리 연산자 &&를 사용하여 score가 60 이상이고 70미만 이면 발동
                 {
                     Console.WriteLine($"입력하신 점수 {score}는(은) 불합격 입니다.  ");
                 }
-                else 
+                else //위의 두 조건을 제외한 발동
                 {
                     Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요. ");
                 }
             }
             else
             {
-                if (score >= 60 && score <= 100)
+                if (score >= 60 && score <= 100)//논리 연산자 &&를 사용하여 score가 60 이상이고 100이하 이면 발동
                 {
                     Console.WriteLine($"입력하신 점수 {score}는(은) 합격 입니다.  ");
                 }
-                else if(score < 60 && score >=0)
+                else if(score < 60 && score >=0)//논리 연산자 &&를 사용하여 score가 0 이상이고 60미만 이면 발동
                 {
                     Console.WriteLine($"입력하신 점수 {score}는(은) 불합격 입니다.  ");
                 }
-                else
+                else //위의 두 조건을 제외한 발동
                 {
                     Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요 ");
                 }
