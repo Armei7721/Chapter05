@@ -10,6 +10,7 @@ namespace p161_ex4
     {
         static void Main(string[] args)
         {
+            
             Console.Write("알고싶은 월을 입력해주세요. : ");
             string m = Console.ReadLine();
             string d = "";
