@@ -25,8 +25,8 @@ namespace p151_ex5
             int[] arr= { nb1, nb2, nb3 };
             int max = arr.Max(); //int max = Math.Max(Math.Max(nb1, nb2), nb3);
             int min = arr.Min(); //int min = Math.Min(Math.Min(nb1, nb2), nb3);
-            int sum = arr.Sum();
-            double average = arr.Average();
+            int sum = arr.Sum(); //System.Linq에 있는 Sum 메소드 사용;
+            double average = arr.Average();//System.Linq에 있는 Avergae 메소드 사용;
             Console.WriteLine($"입력하신 {nb1},{nb2},{nb3} 중 최대값은 {max} 이며, 최소값은 {min} 입니다.");
             Console.WriteLine($"입력하신 {nb1},{nb2},{nb3} 중 합은 {sum} 이며, 평균은 {average} 입니다.");
              

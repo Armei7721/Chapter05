@@ -10,6 +10,7 @@ namespace HWANGJEONGIN_ex3
     {
         static void Main(string[] args)
         {
+            //1번문제 while문
             Console.WriteLine("예제1번 while문과 do 문입니다");
             int i = 0;
             while (i < 5)
@@ -23,6 +24,8 @@ namespace HWANGJEONGIN_ex3
                 Console.WriteLine();
                 i++;
             }
+            //1번문제 do-while문
+
             i = 0;
             do
             {
@@ -35,7 +38,9 @@ namespace HWANGJEONGIN_ex3
                 Console.WriteLine();
                 i++;
             } while (i < 5);
+            
             Console.WriteLine("예제2번 while문과 do 문입니다");
+            //2번문제 while문
             i = 0;
             while (i<5 )
             {
@@ -49,6 +54,7 @@ namespace HWANGJEONGIN_ex3
                 i++;
             }
             i = 0;
+            //2번문제 do-while문
             do
             {
                 int j = 5;

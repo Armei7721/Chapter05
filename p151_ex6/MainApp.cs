@@ -48,9 +48,10 @@ namespace p151_ex6
                     Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요 ");
                 }
             }
-            else
+            else//학년을 잘못입력했을경우 출력
             {
                 Console.WriteLine("학년을 잘못입력하셨습니다. 확인 후 다시 입력해주세요 ");
+            
             }
             
         }

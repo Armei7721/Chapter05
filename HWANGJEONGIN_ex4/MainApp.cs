@@ -10,6 +10,7 @@ namespace HWANGJEONGIN_ex4
     {
         static void Main(string[] args)
         {
+            
             Console.Write("반복 횟수를 입력하세요 : ");
             string banbock = Console.ReadLine();
             int a = int.Parse(banbock);
