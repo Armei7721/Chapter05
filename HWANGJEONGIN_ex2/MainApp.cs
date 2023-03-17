@@ -4,22 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ForFor
+namespace HWANGJEONGIN_ex2
 {
     class MainApp
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i< 5; i++)
+            for (int i = 5; i > 0; i--)
             {
-                for(int j = 0;j<=i;j++)
+                for (int j = 0; j < i; j++)
+
                 {
                     Console.Write("*");
                 }
                 Console.WriteLine("");
             }
-           
-           
-         }
+        }
     }
 }

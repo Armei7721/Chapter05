@@ -33,7 +33,7 @@ namespace p151_ex6
                     Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요. ");
                 }
             }
-            else
+            else if(grade ==3 || grade ==2 || grade ==1)
             {
                 if (score >= 60 && score <= 100)//논리 연산자 &&를 사용하여 score가 60 이상이고 100이하 이면 발동
                 {
@@ -47,6 +47,10 @@ namespace p151_ex6
                 {
                     Console.WriteLine("점수를 잘못입력하셨습니다. 확인 후 다시 입력해주세요 ");
                 }
+            }
+            else
+            {
+                Console.WriteLine("학년을 잘못입력하셨습니다. 확인 후 다시 입력해주세요 ");
             }
             
         }
